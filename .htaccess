@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.educationscience\.joharshakildeveloper\.com$
+RewriteRule ^/?$ "http\:\/\/http\:\/\/" [R=301,L]
+
